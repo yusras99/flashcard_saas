@@ -1,3 +1,12 @@
+import React from "react";
+import {
+  Container,
+  Typography,
+  Grid,
+  CardActionArea,
+  CardContent,
+} from "@mui/material";
+
 // This flashcards page is responsible for fetching and displaying all of the user’s saved flashcard sets
 
 export default function Flashcard() {

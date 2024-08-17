@@ -8,6 +8,11 @@ import {
   Typography,
   Box,
   Grid,
+  Dialog,
+  DialogActions,
+  DialogContentText,
+  DialogTitle,
+  DialogContent,
 } from "@mui/material";
 
 export default function Generate() {

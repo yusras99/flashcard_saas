@@ -69,7 +69,7 @@ export async function GET(req) {
 
     const checkoutSession = await stripe.checkout.sessions.retrieve(session_id); // use the Stripe API to retrieve the checkout session details
 
-    return NextResponse.json(checkoutSession);
+    return NextResponse.json(checkoutSession); // return the session details as a JSON response
   } catch (error) {
     console.error("Error retrieving checkout session:", error);
     return NextResponse.json(
